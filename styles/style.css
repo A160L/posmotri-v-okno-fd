@@ -161,7 +161,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
   justify-content: center;
   align-items: center;
   all: unset;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   cursor: pointer;
   font-weight: 700;
   line-height: 100%;
@@ -215,7 +215,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::after {
 .content__list {
   display: flex;
   flex-direction: column;
-  margin: 1px 0 30px;
   gap: 30px;
 }
 
